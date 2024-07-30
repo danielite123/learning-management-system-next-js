@@ -1,0 +1,21 @@
+.menu-transition-enter {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.menu-transition-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.menu-transition-exit {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.menu-transition-exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+}
