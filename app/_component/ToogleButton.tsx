@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const ToggleButton = ({ active }: { active: "login" | "register" }) => {
   return (
-    <div className="relative flex justify-around items-center bg-primary1 w-[220px] h-[40px] p-4 rounded-full">
+    <div className="relative flex justify-around items-center bg-primary1 w-[180px] h-[25px] p-4 rounded-full">
       <motion.div
         layout
         transition={{
@@ -15,12 +15,12 @@ const ToggleButton = ({ active }: { active: "login" | "register" }) => {
           damping: 30,
           duration: 0.8,
         }}
-        className={`absolute w-[100px] h-[30px] bg-primary3 rounded-full ${
-          active === "login" ? "left-2" : "left-[110px]"
+        className={`absolute w-[80px] h-[20px] bg-primary3 rounded-full ${
+          active === "login" ? "left-2" : "left-[90px]"
         }`}
       />
       <Link
-        href="/auth/login"
+        href="/login"
         className={`text-white text-[12px] font-medium cursor-pointer z-10 ${
           active === "login" ? "text-white" : "text-white"
         }`}
@@ -28,7 +28,7 @@ const ToggleButton = ({ active }: { active: "login" | "register" }) => {
         Login
       </Link>
       <Link
-        href="/auth/register"
+        href="/register"
         className={`text-white text-[12px] ml-8 font-medium cursor-pointer z-10 ${
           active === "register" ? "text-white" : "text-white"
         }`}
