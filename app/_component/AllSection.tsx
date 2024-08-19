@@ -142,7 +142,7 @@ const AllSection = () => {
         </div>
 
         <div className="flex justify-center flex-wrap gap-[40px] mt-[100px] mb-[50px] lg:mb-0">
-          <div className="relative w-[320px] h-[200px] rounded-xl md:mt-[30px] mt-0">
+          <div className="relative w-[320px] h-[200px] rounded-xl md:mt-[15px] mt-0 flex flex-col gap-3">
             <div className="h-8 w-8 bg-primary12 rounded-full inline-block absolute top-[-5px] left-[-9px] -z-10"></div>
             <p className="text-primary13 w-[300px] text-[17px] font-medium">
               <span className="text-primary7">
