@@ -15,6 +15,7 @@ const Features = () => {
         </p>
       </div>
 
+      {/* {Feateure 1} */}
       <div className="flex justify-center flex-wrap flex-shrink gap-[150px] mt-[50px] mb-[50px] lg:mb-0">
         <div className="relative w-[570px] h-[350px] rounded-xl hidden lg:block">
           <div className="relative w-full h-[350px] bg-[url('/images/screen.png')] bg-cover">
@@ -78,6 +79,28 @@ const Features = () => {
                 Teachers can easily see all students and class data at one time.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* {Feateure 2} */}
+      <div className="flex justify-center flex-wrap flex-shrink gap-[150px] mt-[50px] mb-[50px] lg:mb-0">
+        <div className="relative w-[320px] h-[200px] rounded-xl md:mt-[15px] mt-0 flex flex-col gap-3">
+          <p className="text-primary7 w-[300px] text-[24px] font-bold">
+            <span className="text-primary13">Tools</span> For Teachers and
+            Learner
+          </p>
+          <p className="text-gray-500 text-[13px] w-[290px]">
+            Class has a dynamic set of teaching tools built to be deployed and
+            used during class. Teachers can handout assignments in real-time for
+            students to complete and submit.
+          </p>
+        </div>
+        <div className="relative w-[570px] h-[350px] rounded-xl hidden lg:block">
+          <div className="relative w-full h-[350px] bg-[url('/images/screen.png')] bg-cover">
+            <div className="h-[100px] w-[100px] bg-primary12 rounded-full inline-block absolute top-[-30px] left-[60px] -z-10"></div>
+            <div className="h-[20px] w-[20px] bg-primary14 rounded-full inline-block absolute top-[-18px] left-[180px] -z-10"></div>
+            <div className="h-[150px] w-[150px] bg-primary8 rounded-full inline-block absolute bottom-[-60px] right-[-60px] -z-10"></div>
           </div>
         </div>
       </div>
